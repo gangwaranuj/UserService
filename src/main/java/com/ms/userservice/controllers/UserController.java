@@ -52,7 +52,7 @@ public class UserController {
 		User user =  User.builder()
 				.email("dummy@hcl.com")
 				.name("ABC")
-				.about("i am not a robot.")
+				.about("i am a circuit Breaker.")
 				.userId("12345").build();
 		return new ResponseEntity<>(user,HttpStatus.OK);
 	}

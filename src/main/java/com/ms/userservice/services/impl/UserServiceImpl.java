@@ -58,7 +58,7 @@ public class UserServiceImpl implements IUserService{
 
 			//**************************************
 
-			//************using finclient *******888
+			//************using fin-client *******888
 //			Hotel hotel = hotelService.getHotelById(rating.getHotelId());
 			rating.setHotel(hotel);
 			return rating;
